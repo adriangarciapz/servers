@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: docker.io/adriangrpz/jetty:latest
+        image: docker.io/adriangrpz/tomcat:latest
         ports:
         - containerPort: 8080
         resources:
