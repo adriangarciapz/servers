@@ -10,12 +10,7 @@ public class HelloController {
     public String index() {
 
         int n = 10000000;
-        System.out.print("Following are the prime numbers ");
-        System.out.println("smaller than or equal to " + n);
         sieveOfEratosthenes(n);
-        sieveOfEratosthenes(n);
-        sieveOfEratosthenes(n);
-
         return "finished";
     }
 
@@ -42,8 +37,7 @@ public class HelloController {
         // Print all prime numbers
         for(int i = 2; i <= n; i++)
         {
-            if(prime[i] == true)
-                System.out.print(i + " ");
+            ;
         }
     }
 
